@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-        crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <title>Carlos Fonseca</title>
 </head>
@@ -17,7 +17,7 @@
     <div class="nav-container">
         <nav class="navbar">
             <div class="pag-name" style="margin-left: 20px; display: flex;">
-                <h1> <i> Curriculum </i></h1>
+                <h1><i> Curriculum </i></h1>
             </div>
             <div style="margin-right: 20px;">
                 <a href=""> Home </a>
@@ -26,37 +26,168 @@
         </nav>
     </div>
 </header>
+
 <body>
     <div class="card-container">
         <!-- Contenedor tipo tarjeta obtenido de bootstrap "Card" -->
         <div class="card border-info mb-3">
             <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./Images/CF_face.png" class="img-fluid rounded-start" alt="Cara del refernciado Carlos">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h1 class="card-title">Carlos Enrique Fonseca Villalobos</h1>
-                  <h2 class="card-title">QA Junior</h2>
-                  <h4 class="casd-title">Costa Rica | Automatización y pruebas </h4>
-                  <!-- Estas son columnas definidas por bootstrap "Description List Alignment" -->
-                  <dl class="row">
-                    <dt class="col-sm-3 text-muted">Puesto actual</dt>
-                    <dd class="col-sm-9">Automation tester.</dd>
-                  
-                    <dt class="col-sm-3 text-muted">Puesto anterior</dt>
-                    <dd class="col-sm-9"> Backend Developer.</dd>
-                  
-                    <dt class="col-sm-3 text-muted">Educación universitaria</dt>
-                    <dd class="col-sm-9"> 
-                        <p>Tecnológico de Costa Rica.</p>
-                        <p>Campus San Carlos.</p>
-                    </dd>                 
-                  </dl>
+                <div class="col-md-4">
+                    <img src="./Images/CF_face.png" class="img-fluid rounded-start" alt="Cara del refernciado Carlos">
                 </div>
-              </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title">Carlos Enrique Fonseca Villalobos</h1>
+                        <h2 class="card-title">QA Junior</h2>
+                        <h4 class="casd-title">Costa Rica | Automatización y pruebas </h4>
+                        <!-- Estas son columnas definidas por bootstrap "Description List Alignment" -->
+                        <dl class="row">
+                            <dt class="col-sm-3 text-muted">Puesto actual</dt>
+                            <dd class="col-sm-9">Automation tester.</dd>
+
+                            <dt class="col-sm-3 text-muted">Puesto anterior</dt>
+                            <dd class="col-sm-9"> Backend Developer.</dd>
+
+                            <dt class="col-sm-3 text-muted">Educación universitaria</dt>
+                            <dd class="col-sm-9">
+                                <p>Tecnológico de Costa Rica.</p>
+                                <p>Campus San Carlos.</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
+        <aside>
+            <!-- Acordeon de información sacado de bootstrap "Accordion" -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <h2><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                                    <path
+                                        d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                                </svg> Experiencia</h2>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <dl class="row">
+                                <dt class="col-sm-3">CTEC</dt>
+                                <dd class="col-sm-9">
+                                    <dl class="row">
+                                        <dt class="col-sm-4">Asistente y soporte</dt>
+                                        <dd class="col-sm-8"><small>Enero 2019 - Diciembre 2019</small></dd>
+                                    </dl>
+                                </dd>
+                                <dt id="list" class="col-sm-3">
+                                    <ul>
+                                        <li>Asistencia en diferentes conferencias hechas para estudiantes y externos de
+                                            la institución.</li>
+                                        <li>Revisión de estado del equipo.</li>
+                                        <li>Repaso y reporte del inventario.</li>
+                                    </ul>
+                                </dt>
+                                <dd class="col-sm-9">
+                                    <img id="img1" src="./Images/CTEC.png" class="rounded mx-auto d-block">
+                                </dd>
+                            </dl>
+                            <dl class="row">
+                                <dt class="col-sm-3">Technology SUMMIT</dt>
+                                <dd class="col-sm-9">
+                                    <dl class="row">
+                                        <dt class="col-sm-4">Asistente de la actividad</dt>
+                                        <dd class="col-sm-8"><small>Octubre 2016</small></dd>
+                                    </dl>
+                                </dd>
+                                <dt id="list" class="col-sm-3">
+                                    <ul>
+                                        <li>Asistencia en diferentes hechos para estudiantes y externos de la
+                                            institución.</li>
+                                        <li>Preparación del área de conferencia.</li>
+                                        <li>Guía a los asistentes de las actividades.</li>
+                                    </ul>
+                                </dt>
+                                <dd class="col-sm-9">
+                                    <img id="img1" src="./Images/Summit.jpg" class="rounded mx-auto d-block">
+                                </dd>
+                            </dl>
+                            <dl class="row">
+                                <dt class="col-sm-3">Growth Acceleration Partners</dt>
+                                <dd class="col-sm-9">
+                                    <dl class="row">
+                                        <dt class="col-sm-4">QA Practicer</dt>
+                                        <dd class="col-sm-8"><small>Febrero 2021 - Junio 2021</small></dd>
+                                    </dl>
+                                </dd>
+                                <dt id="list" class="col-sm-3">
+                                    <ul>
+                                        <li>Analisis de caja blanca y caja negra a la página <em>Crates.</em></li>
+                                        <li>Automatización de pruebas de la página.</li>
+                                    </ul>
+                                </dt>
+                                <dd class="col-sm-9">
+                                    <img id="img1" src="./Images/gap.png" class="rounded mx-auto d-block">
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h2><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-code-slash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                                </svg> Lenguajes</h2>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- Lista de botones obtenida en Bootstrap "List Group" y "List Group -> with badges" -->
+                            <div class="list-group">
+                                <a href="https://www.java.com/es/" target="_blank" rel="noopener noreferrer"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    Java
+                                    <span class="badge bg-primary rounded-pill">4</span>
+                                </a>
+                                <a href="https://www.python.org" target="_blank" rel="noopener noreferrer"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    Python
+                                    <span class="badge bg-primary rounded-pill">4</span>
+                                </a>
+                                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    C#
+                                    <span class="badge bg-primary rounded-pill">2</span>
+                                </a>
+                                <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    SQL
+                                    <span class="badge bg-primary rounded-pill">2</span>
+                                </a>
+                                <a href="https://www.javascript.com" target="_blank" rel="noopener noreferrer"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    JavaScript
+                                    <span class="badge bg-primary rounded-pill">2</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
     </div>
 </body>
+
 </html>

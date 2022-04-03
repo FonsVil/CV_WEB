@@ -10,14 +10,14 @@
     margin: 0;
 }
 
-h1 {
+
+.pag-name h1 {
     color: aliceblue;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
-span:nth-child(1){color: #F00;}
-
 .nav-container {
-    background-color: rgb(59, 59, 252);
+    background-color: rgb(79, 170, 250);
 }
 
 .nav-container a {
@@ -30,19 +30,35 @@ span:nth-child(1){color: #F00;}
     color: darkorange;
 }
 
-.card-container{
+.card-container {
     align-items: center;
-    background-color: darkkhaki;
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
 }
 
-.card-body h1{
+.card-body h1 {
     color: black;
 }
 
-.card-body h4{
+.card-body h4 {
     font-weight: normal;
+}
+
+.container {
+    border-color: black;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+}
+
+#list {
+    font-weight: normal;
+}
+
+#img1 {
+    height: 70pt;
 }
