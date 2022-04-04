@@ -17,7 +17,10 @@
 }
 
 .nav-container {
+    position: relative;
     background-color: rgb(79, 170, 250);
+    z-index: 100;
+    box-sizing: border-box;
 }
 
 .nav-container a {
@@ -28,6 +31,11 @@
 
 .nav-container a:hover {
     color: darkorange;
+}
+
+.card {
+    position: relative;
+    z-index: -1;
 }
 
 .card-container {
@@ -55,6 +63,18 @@
     margin-bottom: 3%;
 }
 
+.scrollup {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 50%;
+    text-align: center;
+    padding: 10px;
+    z-index: 100;
+    display: none;
+}
+
 #list {
     font-weight: normal;
 }
@@ -63,12 +83,12 @@
     height: 70pt;
 }
 
-#footIcon{
+#footIcon {
     margin-right: 1%;
     padding-right: 1%;
 }
 
-#footText{
+#footText {
     margin-left: 1%;
     padding-left: 1%;
 }

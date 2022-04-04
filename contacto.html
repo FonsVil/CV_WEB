@@ -11,6 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./garand-sticky-73b0fbe/jquery.sticky.js"></script>
+    <script type="text/javascript" src="./scripts/scripts.js"></script>
     <title>Carlos Fonseca</title>
 </head>
 <header>
@@ -28,14 +31,41 @@
 </header>
 
 <body>
+    <div class="m-3 p-2">
+        <div class="mb-3">
+            <label for="nombreRemitente" class="form-label">Email address</label>
+            <input type="text" class="form-control" id="nombreRemitente" placeholder="Eduardo Porras">
+        </div>
+        <div class="mb-3">
+            <label for="correoRemitente" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="correoRemitente" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="mensajeRemitente" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="mensajeRemitente" rows="3"></textarea>
+        </div>
+        <div id="" class="mb-3">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </div>
 
 </body>
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-3 d-flex align-items-center">
         <span id="footText" class="text-muted">&copy; 2022 Company, Inc</span>
     </div>
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <div class="row">
+        <a
+            class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            Teléfono:<br>89703243
+        </a>
+        <a
+            class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            Dirección:<br> fonsvil@gmail.com
+        </a>
+    </div>
+    <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
         <li id="footIcon" class="ms-3">
             <a class="text-muted" href="https://www.linkedin.com/in/carlos-enrique-fonseca-villalobos-b0385b183/"
                 target="_blank" rel="noopener noreferrer">
